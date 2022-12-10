@@ -1,6 +1,7 @@
 library(shiny)
 library(dplyr)
 library(plotly)
+library(rsconnect)
 
 # Define server logic required to draw a histogram
 server <- function(input, output) {

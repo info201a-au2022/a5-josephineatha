@@ -10,6 +10,7 @@
 library(shiny)
 library(dplyr)
 library(plotly)
+library(rsconnect)
 
 # define ui and server
 source("co2app_server.R")

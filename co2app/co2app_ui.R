@@ -1,6 +1,7 @@
 library(shiny)
 library(dplyr)
 library(plotly)
+library(rsconnect)
 
 
 intro_panel <- tabPanel(
